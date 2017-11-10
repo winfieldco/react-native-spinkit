@@ -323,13 +323,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../../react-native/React/**",
-					"$(SRCROOT)/../node_modules/react-native/React/**",
-					"$(SRCROOT)/Libraries/**",
-				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../ios/Pods/Headers/Public/**";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNSpinkit;
 				SKIP_INSTALL = YES;
@@ -340,13 +334,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../../react-native/React/**",
-					"$(SRCROOT)/../node_modules/react-native/React/**",
-					"$(SRCROOT)/Libraries/**",
-				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../ios/Pods/Headers/Public/**";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNSpinkit;
 				SKIP_INSTALL = YES;
